@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:hint="Student Id"/>
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editTextId"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:id="@+id/editTextSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editTextName"
+        android:layout_marginTop="20dp"
+        android:hint="Surname" />
+
+    <EditText
+        android:id="@+id/editTextMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/editTextSurname"
+        android:layout_marginTop="20dp"
+        android:hint="Marks" />
+
+    <Button
+        android:id="@+id/btnAddData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextMarks"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="ADD DATA"/>
+
+
+    <Button
+        android:id="@+id/btnupdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddData"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="20dp"
+        android:text="UPDATE DATA"/>
+
+    <Button
+        android:id="@+id/btnGetAllData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextMarks"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="145dp"
+        android:text="GET ALL DATA"/>
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGetAllData"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="145dp"
+        android:text="GET DATA"/>
+
+    <Button
+        android:id="@+id/btndeleteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnData"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="140dp"
+        android:text="DELETE DATA"/>
+
+    <Button
+        android:id="@+id/btnResetField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnData"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="RESET"/>
+
+</RelativeLayout>
