@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFetchData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="270dp"
+        android:textSize="15sp"
+        android:text="Fetch Data"
+        />
+<!--
+    <TextView
+        android:id="@+id/txtFetchLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnFetchData"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Fetched Data here"
+        />
+
+    <TextView
+        android:id="@+id/txtIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtFetchLabel"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:hint="Id : "
+        />
+    <TextView
+        android:id="@+id/txtIdLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/txtFetchLabel"
+        android:layout_marginTop="40dp"
+        android:hint=""
+        />
+
+
+    <TextView
+        android:id="@+id/txtNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtIdLabel"
+        android:layout_marginTop="20dp"
+        android:hint="Name : "
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtNameLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/txtIdLabel2"
+        android:layout_marginTop="20dp"
+        android:hint=""
+        />
+
+    <TextView
+        android:id="@+id/txtEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/txtNameLabel"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Email : "
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtEmailLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/txtNameLabel2"
+        android:layout_marginTop="20dp"
+        android:hint=""
+        />
+
+    <TextView
+        android:id="@+id/txtAddLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_below="@+id/txtEmailLabel"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Address : "
+        android:textStyle="bold"
+        />-->
+
+<!--
+    <TextView
+        android:id="@+id/txtAddLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/txtEmailLabel2"
+        android:layout_marginTop="20dp"
+        android:hint=""
+        />-->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</RelativeLayout>
